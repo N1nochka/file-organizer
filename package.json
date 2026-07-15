@@ -1,0 +1,25 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CLI-инструмент для анализа, сортировки и очистки папки Загрузки",
+  "main": "file-organizer.js",
+  "scripts": {
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "cli",
+    "file-organizer",
+    "nodejs",
+    "downloads"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.9.5"
+  }
+}
